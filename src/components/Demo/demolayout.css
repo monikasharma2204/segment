@@ -1,0 +1,54 @@
+.button-container-layout {
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+.demo-layout-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    width: 800px;
+    height: 80px;
+    padding-left: 40px;
+    gap: 100px;
+    margin-top: -20px;
+    
+}
+
+.stage-container{
+    padding-top: 60PX;
+    height: 500px;
+    padding-left: 180px;
+}
+.upload-button,.gallery-button,.create-button {
+       display: flex;
+        align-items: center;
+        padding: 8px 16px;
+        font-size: 14px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin: 20px;
+        width: 200px;
+        height: 50px;
+        
+}
+
+.upload-button:hover,
+.gallery-button:hover,
+.create-button:hover {
+    background-color: #0056b3;
+}
+.upload, .model , .create{
+    gap: 10px;
+    padding: 10px;
+}
+.iconButton-container{
+    display: flex;
+    align-items: center;
+}

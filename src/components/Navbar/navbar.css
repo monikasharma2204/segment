@@ -1,0 +1,36 @@
+/* NavBar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    top: 0px;
+    position: sticky;
+  }
+  
+  .logo img {
+    max-width: 100px; 
+    height: auto;
+    padding-left: 6px;
+  }
+  
+  .links a {
+    margin-left: 10px; /* Adjust the spacing between links */
+    text-decoration: none;
+    color: black;
+    padding-right: 50px;
+    font-size: larger;
+   font-display: solid;
+   font-weight: 500;
+   margin-right: 2.5rem;
+    
+  
+  }
+  
+  /* Optional: Style the links on hover or active */
+  .links a:hover,
+  .links a.active {
+    color: #007bff; /* Change to your desired hover color */
+  }
+  
